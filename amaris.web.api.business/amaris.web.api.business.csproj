@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\amaris.web.api.core\amaris.web.api.core.csproj" />
+    <ProjectReference Include="..\amaris.web.api.infraestructure\amaris.web.api.infraestructure.csproj" />
+  </ItemGroup>
+
+</Project>
